@@ -12,6 +12,7 @@
 
 .navbar{
   background-color: #ffffff;
+  padding: 1px;
 }
 
 .container{
@@ -29,6 +30,10 @@
 }
 #bem-vindo h1 {
   font-size: 4rem;
+  margin-bottom: 30px;
+}
+#bem-vindo img {
+  margin-bottom: 150px;
 }
 
 #bem-vindo h2 {
@@ -344,15 +349,12 @@ a:hover {
   background-color: #000;
 }
 .footer-container {
+  height: 0px;
   padding: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-i {
-  width: 60vh;
-  font-size: x-large;
+  border-top: #ffffff solid 1px;
 }
 
 .footer-btn {
@@ -362,6 +364,7 @@ i {
   width: 50px;
   height: 50px;
   margin: 5px;
+  font-size: x-large;
 }.footer-btn:hover{
   background-color: #000000;
   border: #ffffff solid 1px;

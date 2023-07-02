@@ -15,18 +15,29 @@
 
 	<div class="container-body">
 <header class="navbar">
-	<img src="/img/password-cadeado_B.gif" alt="Cadeado azul" width="50">
+	<img src="/img/password-cadeado_B.gif" alt="Cadeado azul" width="45">
 </header>
 
 
 	<div class="container">
 		<div id="bem-vindo">
 			<h1> Bem vindo ao Gera Senha :)</h1>
+				<img src="/img/password-cadeado.gif" alt="cadeado" width="220">
 			<h2>O que é o Gera Senha??</h2>
-			<h3><h3>testetestetestetesteteste</h3></h3>
+			<h3>É um sistema desenvolvido em HTML, CSS e JAVASCRIPT <br>
+			voltado para gerar senhas malucas.</h3>
 			<br>
+			<h2>Por que foi desenvolvido??</h2>
+			<h3>Sabe aqueles momentos em que a criatividade some e <br>
+				você se encontra com duvida de qual senha colocar?<br>
+				Então, pensando nisso resolvi Desenvolver esse <br>
+				projeto como fonte de estudo.</h3>
 			<h2>Quem é o seu criador??</h2>
-			<h3>testetestetestetesteteste</h3>
+			<h3>PRAZER!! <br>
+			Eu me chamo Alessandro Santos, sou um Aprendiz <br>
+			de Desenvolvimento de Software vulgo Garoto de Programa kkk. <br>
+			no momento tenho 22 Anos, Sou formado em Redes de computadore,<br>
+			Técnico em Informatica e estou me graduando em sistemas de Informações.</h3>
 		</div>
 	</div>
 
@@ -38,38 +49,38 @@
 	<!-- partial:index.partial.html -->
 	<div class="container">
 		<div class="container-gerador">
-			<h2 class="title">Password Generator</h2>
+			<h2 class="title">Gera Senha</h2>
 			
 			<div class="length range__slider" data-min="4" data-max="32">
-				<div class="length__title field-title" data-length='0'>length:</div>
+				<div class="length__title field-title" data-length='0'>Quantidade: </div>
 				<input id="slider" type="range" min="4" max="32" value="16" />
 			</div>
 
 			<div class="settings">
-				<span class="settings__title field-title">settings</span>
+				<span class="settings__title field-title">Funções</span>
 				<div class="setting">
 					<input type="checkbox" id="uppercase" checked />
-					<label for="uppercase">Include Uppercase</label>
+					<label for="uppercase">Incluir Maisculas</label>
 				</div>
 				<div class="setting">
 					<input type="checkbox" id="lowercase" checked />
-					<label for="lowercase">Include Lowercase</label>
+					<label for="lowercase">Incluir Minusculas</label>
 				</div>
 				<div class="setting">
 					<input type="checkbox" id="number" checked />
-					<label for="number">Include Numbers</label>
+					<label for="number">Incluir Numericas</label>
 				</div>
 				<div class="setting">
 					<input type="checkbox" id="symbol" />
-					<label for="symbol">Include Symbols</label>
+					<label for="symbol">Incluir Simbolos</label>
 				</div>
 			</div>
-			<button class="btn generate" id="generate">Generate Password</button>
+			<button class="btn generate" id="generate">Gerar Senha</button>
 			<div class="result">
-				<div class="result__title field-title">Generated Password</div>
-				<div class="result__info right">click to copy</div>
-				<div class="result__info left">copied</div>
-				<div class="result__viewbox" id="result">CLICK GENERATE</div>
+				<div class="result__title field-title">Gerar Senha</div>
+				<div class="result__info right"> Clique para copiar</div>
+				<div class="result__info left">copiado</div>
+				<div class="result__viewbox" id="result">CLIQUE PARA GERAR</div>
 				<button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></i></button>
 			</div>
 		</div>
@@ -102,6 +113,7 @@
 		<!-- Copyright -->
 		<div class="footer-text">
 		  Desenvolvido por: Alessandro santos
+		  <img src="/img/logo_vitória_line.png" alt="" width="100">
 		</div>
 		<!-- Copyright -->
 	  </footer>    

@@ -1,4 +1,4 @@
-Gera Senha
+Gera Senha <br>
 Aplicação feita para gerar senha aleatórias
 
 ✨ Tecnologias
